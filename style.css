@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+font-family: "Chakra Petch", sans-serif;
+}
+
+
+.chakra-petch-regular-italic {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+.container {
+width: 100%;
+min-height: 100vh;
+position: relative;
+color: aqua;
+background-color: black;
+display: grid;
+align-items: center;
+align-content: center;
+justify-content: center;
+justify-items: center;
+}
+
+
+.container-clock {
+    color: aqua;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 100px;
+}
+
+.clock span {
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+#city {
+    color: black;
+    background-color: aqua;
+}

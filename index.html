@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+      <div class="container-clock">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="ampm">AM</span>
+      </div>
+      <form class="container-form">
+        <label for="city">Выберите город:</label>
+        <select id="city" name="city">
+          <option value='Moscow' >Москва</option>
+          <option value='New York'>Нью-Йорк</option>
+          <option value='London'>Лондон</option>
+          <option value='Kiev'>Киев</option>
+          <option value='Bangkok'>Бангкок</option>
+          <option value='Sydney'>Сидней</option>
+          <option value='Taiwan'>Тайвань</option>
+          <option value='Mexico'>Мехико</option>
+          <option value='Brasilia'>Бразилиа</option>
+          <option value='Singapore'>Сингапур</option>
+        </select>
+      </form>
+    </div>
+<script src="app.js"></script>    
+</body>
+</html>
